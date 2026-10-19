@@ -1,0 +1,72 @@
+{
+  "E001": {
+    "Mon": {"preferred": "morning", "backups": ["evening"]},
+    "Tue": {"preferred": "afternoon", "backups": []},
+    "Thu": {"preferred": "morning", "backups": []},
+    "Sat": {"preferred": "morning", "backups": ["afternoon"]}
+  },
+  "E002": {
+    "Mon": {"preferred": "morning", "backups": []},
+    "Wed": {"preferred": "morning", "backups": []},
+    "Thu": {"preferred": "afternoon", "backups": ["morning"]},
+    "Fri": {"preferred": "evening", "backups": []}
+  },
+  "E003": {
+    "Mon": {"preferred": "morning", "backups": ["afternoon", "evening"]},
+    "Tue": {"preferred": "evening", "backups": []},
+    "Wed": {"preferred": "afternoon", "backups": ["evening"]},
+    "Thu": {"preferred": "evening", "backups": []},
+    "Fri": {"preferred": "evening", "backups": ["morning"]},
+    "Sat": {"preferred": "afternoon", "backups": []},
+    "Sun": {"preferred": "evening", "backups": ["afternoon"]}
+  },
+  "E004": {
+    "Tue": {"preferred": "afternoon", "backups": ["evening"]},
+    "Wed": {"preferred": "morning", "backups": ["afternoon"]},
+    "Fri": {"preferred": "morning", "backups": []}
+  },
+  "E005": {
+    "Mon": {"preferred": "morning", "backups": ["afternoon"]},
+    "Thu": {"preferred": "morning", "backups": ["evening"]},
+    "Fri": {"preferred": "afternoon", "backups": []},
+    "Sun": {"preferred": "afternoon", "backups": []}
+  },
+  "E006": {
+    "Tue": {"preferred": "evening", "backups": ["afternoon"]},
+    "Wed": {"preferred": "evening", "backups": []},
+    "Fri": {"preferred": "evening", "backups": ["afternoon", "morning"]},
+    "Sat": {"preferred": "evening", "backups": []}
+  },
+  "E007": {
+    "Mon": {"preferred": "morning", "backups": ["evening"]},
+    "Wed": {"preferred": "afternoon", "backups": []},
+    "Fri": {"preferred": "morning", "backups": ["afternoon"]},
+    "Sun": {"preferred": "afternoon", "backups": ["morning"]}
+  },
+  "E008": {
+    "Mon": {"preferred": "afternoon", "backups": ["morning"]},
+    "Thu": {"preferred": "evening", "backups": []},
+    "Sat": {"preferred": "evening", "backups": ["afternoon", "morning"]}
+  },
+  "E009": {
+    "Tue": {"preferred": "morning", "backups": ["evening"]},
+    "Wed": {"preferred": "morning", "backups": []},
+    "Thu": {"preferred": "morning", "backups": ["afternoon"]},
+    "Fri": {"preferred": "afternoon", "backups": ["evening"]}
+  },
+  "E010": {
+    "Mon": {"preferred": "morning", "backups": []},
+    "Wed": {"preferred": "evening", "backups": ["afternoon"]},
+    "Sat": {"preferred": "evening", "backups": []}
+  },
+  "E011": {
+    "Mon": {"preferred": "evening", "backups": ["afternoon"]},
+    "Tue": {"preferred": "afternoon", "backups": ["morning"]},
+    "Fri": {"preferred": "evening", "backups": ["morning"]}
+  },
+  "E012": {
+    "Mon": {"preferred": "afternoon", "backups": []},
+    "Tue": {"preferred": "morning", "backups": []},
+    "Sun": {"preferred": "morning", "backups": ["evening"]}
+  }
+}
